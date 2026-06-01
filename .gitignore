@@ -10,13 +10,11 @@ Thumbs.db
 
 # Editor and IDE
 /.cache/
-/.vscode/
-/.zed/
 /.idea/
 *.swp
 *.swo
 *~
-.editorconfig
+/.editorconfig
 
 # ESP-IDF Build and Generated Files
 build/
@@ -93,15 +91,10 @@ serial_log.txt
 # Clangd and Compilation
 /.clangd
 /clangd.txt
-/.clang-format
 /.clang-tidy
-
-# Pre-commit
-/.pre-commit-config.yaml
 
 # AI and MCP Tools
 /.cursor/
-/.github/
 .claude/
 .claude.json
 .claude.json.backup
