@@ -1,0 +1,53 @@
+[
+    {
+        "label": "Set Target (ESP32)",
+        "command": "idf.py set-target esp32",
+        "save": "all"
+    },
+    {
+        "label": "Set Target (ESP32-C3)",
+        "command": "idf.py set-target esp32c3",
+        "save": "all"
+    },
+    {
+        "label": "Set Target (ESP32-S3)",
+        "command": "idf.py set-target esp32s3",
+        "save": "all"
+    },
+    {
+        "label": "Build",
+        "command": "idf.py build",
+        "save": "all",
+        "hide": "on_success",
+        "allow_concurrent_runs": true
+    },
+    {
+        "label": "Clean Build",
+        "command": "idf.py fullclean && idf.py build",
+        "save": "all",
+        "hide": "on_success",
+        "allow_concurrent_runs": true
+    },
+    {
+        "label": "Menuconfig",
+        "command": "idf.py menuconfig"
+    },
+    {
+        "label": "Flash",
+        "command": "idf.py flash",
+        "save": "all"
+    },
+    {
+        "label": "Monitor",
+        "command": "idf.py monitor"
+    },
+    {
+        "label": "Flash & Monitor",
+        "command": "idf.py flash monitor",
+        "save": "all"
+    },
+    {
+        "label": "Erase Flash",
+        "command": "idf.py erase_flash"
+    }
+]
