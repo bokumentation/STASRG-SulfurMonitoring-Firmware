@@ -1,39 +1,42 @@
-All Rights Reserved
+BSD 3-Clause License
 
 Copyright (c) 2025 STASRG
 
-This software and associated documentation files (the "Software") are the proprietary
-and confidential information of the copyright holder. All rights not expressly granted
-herein are fully reserved.
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
 
-NO GRANT OF RIGHTS
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
 
-No part of this Software, in source or binary form, may be used, copied, modified,
-merged, published, distributed, sublicensed, or sold, in whole or in part, without
-the express prior written permission of the copyright holder.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
 
-INTELLECTUAL PROPERTY AND PATENT RIGHTS
+3. Neither the name of the copyright holder nor the names of its contributors
+   may be used to endorse or promote products derived from this software
+   without specific prior written permission.
 
-The Software contains inventions, designs, methods, algorithms, and technical solutions
-that may be subject to patent protection. All patent rights, whether filed or unfiled,
-are expressly reserved by the copyright holder.
+PATENT RIGHTS
 
-No license, express or implied, is granted under any patent, patent application, or
-other intellectual property right of the copyright holder as a result of access to,
-use of, or distribution of the Software.
+No patent license, express or implied, is granted by this license. All patent
+rights, whether filed or unfiled, are expressly reserved by the copyright
+holder. Redistribution and use of this software does not grant any license
+under any patent claims held by the copyright holder.
 
 THIRD-PARTY COMPONENTS
 
-This project includes third-party open source components which are subject to their
-own respective licenses. See individual component directories for details.
+This project includes third-party open source components which are subject to
+their own respective licenses. See individual component directories for details.
 
-DISCLAIMER OF WARRANTY AND LIABILITY
+DISCLAIMER
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
-PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDER BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-For licensing inquiries, contact the copyright holder.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
