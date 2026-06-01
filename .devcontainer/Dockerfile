@@ -1,4 +1,4 @@
-FROM espressif/idf:v6.0.1
+FROM espressif/idf:v5.5.1
 
 # Get the host user's UID and GID (passed as build args)
 ARG USERNAME=developer

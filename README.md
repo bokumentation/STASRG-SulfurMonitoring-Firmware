@@ -1,7 +1,7 @@
 # STASRG Sulfur Monitoring Firmware
 
 [![Build](https://img.shields.io/github/actions/workflow/status/bokumentation/STASRG-SulfurMonitoring-Firmware/build.yml?style=flat-square)](https://github.com/bokumentation/STASRG-SulfurMonitoring-Firmware/actions/workflows/build.yml)
-[![ESP-IDF](https://img.shields.io/badge/ESP--IDF-v6.0-blue?style=flat-square)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)
+[![ESP-IDF](https://img.shields.io/badge/ESP--IDF-v5.5.1-blue?style=flat-square)](https://docs.espressif.com/projects/esp-idf/en/stable/esp32/index.html)
 [![Target](https://img.shields.io/badge/target-ESP32S3-green?style=flat-square)](https://www.espressif.com/en/products/socs/esp32-s3)
 [![License](https://img.shields.io/badge/license-BSD--3--Clause-green?style=flat-square)](LICENSE)
 
@@ -12,7 +12,7 @@ Air quality monitoring system for real-time measurement of SO₂, H₂S, wind sp
 | Category | Technology |
 |----------|------------|
 | MCU | ESP32-S3 |
-| Framework | ESP-IDF v6.0 |
+| Framework | ESP-IDF v5.5.1 |
 | Language | C / C++ |
 | Gas Sensor | TB600 (SO₂ / H₂S) |
 | Wind Sensor | Anemometer |
@@ -69,7 +69,7 @@ Air quality monitoring system for real-time measurement of SO₂, H₂S, wind sp
 
 ### Prerequisites
 
-- ESP-IDF v6.0 or later
+- ESP-IDF v5.5.1 or later
 - Python 3.8+
 
 ### Building
