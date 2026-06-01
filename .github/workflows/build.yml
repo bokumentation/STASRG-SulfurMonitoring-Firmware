@@ -1,0 +1,39 @@
+name: Build ESP-IDF
+
+on:
+  push:
+    paths:
+      - 'application/rx_local_web_uart/**'
+  pull_request:
+    paths:
+      - 'application/rx_local_web_uart/**'
+
+jobs:
+  build-esp32s3:
+    runs-on: ubuntu-latest
+    container:
+      image: espressif/idf:latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Build ESP32-S3
+        run: |
+          . /opt/esp/idf/export.sh
+          cd application/rx_local_web_uart
+          idf.py set-target esp32s3
+          idf.py build
+
+      - name: Upload firmware artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: firmware-esp32s3
+          path: |
+            application/rx_local_web_uart/build/bootloader/bootloader.bin
+            application/rx_local_web_uart/build/partition_table/partition-table.bin
+            application/rx_local_web_uart/build/ota_data_initial.bin
+            application/rx_local_web_uart/build/*.bin
+            application/rx_local_web_uart/build/*.elf
+            application/rx_local_web_uart/build/*.map
+          if-no-files-found: warn
