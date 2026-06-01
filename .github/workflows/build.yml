@@ -2,17 +2,13 @@ name: Build ESP-IDF
 
 on:
   push:
-    paths:
-      - 'application/rx_local_web_uart/**'
   pull_request:
-    paths:
-      - 'application/rx_local_web_uart/**'
 
 jobs:
   build-esp32s3:
     runs-on: ubuntu-latest
     container:
-      image: espressif/idf:latest
+      image: espressif/idf:v5.5.1
 
     steps:
       - name: Checkout repository
